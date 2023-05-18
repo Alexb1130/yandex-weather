@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(230, 244, 255);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 50px auto;
+    display: grid;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-container > div {
+    flex: 1 1 50%;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
