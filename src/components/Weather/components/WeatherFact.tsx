@@ -1,14 +1,12 @@
-import Image from 'next/image';
-
+import { ReactNode } from 'react';
 interface Props {
-    iconName: string;
+    icon: ReactNode;
     title: string;
-    alt?: string;
 }
 
-export const WeatherFact = ({ iconName, title, alt = '' }: Props) => (
+export const WeatherFact = ({ icon, title }: Props) => (
     <span className='flex-inline'>
-        <Image width={24} height={24} src={`/svg/${iconName}.svg`} alt={alt} />
+        {icon}
         <span className='ml-8'>{title}</span>
     </span>
 )

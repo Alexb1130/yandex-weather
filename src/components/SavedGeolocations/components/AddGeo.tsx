@@ -15,7 +15,7 @@ export const AddGeo = ({ onAdd }: Props) => (
         <Form.Item
             name="label"
             rules={[{ required: true, message: 'Введите имя' }]}
-            style={{ maxWidth: 200 }}
+            style={{ maxWidth: 165 }}
         >
             <Input addonBefore='имя' />
         </Form.Item>
